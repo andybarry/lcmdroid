@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item 
+  	android:id="@+id/toggleStarredOnly"
+  	android:title="@string/star_only" android:icon="@drawable/star_yes2_black">
+  </item>
+  <item 
+  	android:id="@+id/toggleStarredAll"
+  	android:title="@string/show_all_components" android:icon="@drawable/star_no2_black">
+  </item>
+</menu>

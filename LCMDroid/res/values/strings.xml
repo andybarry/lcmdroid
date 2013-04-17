@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Robo-monitor</string>
+    <string name="track">Track</string>
+    <string name="app_name">Robo-Monitor</string>
+    <string name="scroll_view_2_button_1">gusto button</string>
+    <string name="new_plot">Create new plot</string>
+    <string name="main_no_items">No items</string>
+    <string name="add_trace">Add/Remove Traces</string>
+    <string name="star_only">Show only starred</string>
+    <string name="show_all_components">Show all</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayout1">
+    
+    <ImageView 
+      android:id="@+id/star_image"
+	  android:src="@drawable/star_no"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentLeft="true"
+	  android:paddingLeft="30px" />
+	    
+    <TextView
+        android:id="@+id/component_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:text="--channel name missing--"
+        android:textColor="#8C9157"        
+        android:layout_toRightOf="@+id/star_image"
+        >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/component_value"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:paddingRight="10px"
+        android:text="----"
+        android:layout_alignParentRight="true"
+        android:textColor="#7F8078"        
+        >
+    </TextView>
+        
+</RelativeLayout>

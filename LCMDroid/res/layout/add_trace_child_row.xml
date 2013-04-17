@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayout1">
+    
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:id="@+id/varname" android:paddingLeft="50px"
+        android:gravity="center_vertical"
+        android:text="--channel name missing--"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/varcheck"
+        android:layout_centerVertical="true">
+    </TextView>
+        
+    <CheckBox
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:id="@+id/varcheck"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10px">
+    </CheckBox>
+</RelativeLayout>

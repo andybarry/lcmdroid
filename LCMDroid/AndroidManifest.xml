@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.mit.csail.lcmdroid"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+    <uses-sdk android:minSdkVersion="7" />
+    
+
+    <application android:icon="@drawable/robomon1_icon1" android:label="@string/app_name"
+    	android:name="LCMApplication">
+        <activity 
+        	android:label="@string/app_name" 
+        	android:name="LCMGraph"
+        	android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity 
+        	android:label="@string/hello" 
+        	android:name="LCMDroidChannels"
+        	android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:name="DataService" />
+        <activity 
+        	android:name="AddTrace" 
+        	android:label="@string/add_trace"
+        	android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+    </application>
+</manifest>
